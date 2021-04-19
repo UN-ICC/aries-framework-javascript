@@ -70,6 +70,18 @@
   "release-it": {
     "github": {
       "release": true
+    },
+    "npm": {
+      "skipChecks": true,
+      "ignoreVersion": true
+    },
+    "git": {
+      "requireBranch": "main",
+      "push": false,
+      "commit": false
     }
+  },
+  "engines": {
+    "node": "^12"
   }
 }
